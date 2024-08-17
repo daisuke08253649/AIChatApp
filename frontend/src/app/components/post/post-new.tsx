@@ -93,7 +93,7 @@ const PostNew = () => {
 
 
     return (
-        <div className="fixed bottom-0 left-2 right-2 h-40 flex flex-col justify-end items-center bg-[#7494c0] pb-5">
+        <div className="fixed bottom-0 left-2 right-2 h-40 flex flex-col justify-end items-center bg-[#add8e6] pb-5">
             {loading && (
                 <div className="flex items-center justify-center space-x-3 my-2">
                     <div className="h-5 w-5 animate-spin rounded-full border-2 border-yellow-500 border-t-transparent" />
@@ -101,7 +101,7 @@ const PostNew = () => {
                 </div>
             )}
             <textarea
-                className="w-[752px] bg-gray-50 rounded py-3 px-3 outline-none focus:bg-white"
+                className="w-[752px] bg-gray-50 rounded py-3 px-3 outline-none focus:bg-white text-black"
                 id="prompt"
                 name="prompt"
                 placeholder="How are you?"
